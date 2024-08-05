@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niranjan Patil</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Niranjan Patil</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Niranjan Patil</div>
+        <div class="hamburger-menu">
+           <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+           </div>
+           <div class="menu-links">
+            <li><a href="#about"  onclick="toggleMenu()">About</a></li>
+            <li><a href="#skills"  onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#projects"  onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+           </div>
+        </div>
+    </nav>
+
+    <!--Profile Section-->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./Images/profile-pic.png" alt="Niranjan Patil"/>
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Niranjan Patil</h1>
+            <p class="section__text__p2">Data Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./images/Niranjan_Patil_Resume.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div class="social-container">
+                <img src="./Images/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/niranjanpatil11/'"/>
+                <img src="./Images/github.png" alt="My GitHub Profile" class="icon" onclick="location.href='https://github.com/niranjanpatil29/'"/>
+                <!--<img src="./Images/github.png" alt="My Instagram Profile" class="icon" onclick="location.href='https://www.instagram.com/niranjan_patil_18'"/>-->
+            </div>
+        </div>
+    </section>
+    <!--About Section-->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Images/Profile-Pic.jpg" alt="Profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Images/education.png" alt="Education icon" class="icon"/>
+                        <h3></h3>
+                        <p style="text-align: justify;">" Hello World!, I'm Niranjan Patil, a dedicated Data Analyst with a Computer 
+                            Science degree from KLS Gogte Institute of Technology. Proficient in SQL, Tableau, Python, Power BI and 
+                            Excel, my skills include statistical analysis and machine learning. Eager to contribute to real-world 
+                            projects, I seek opportunities to solve complex problems and derive insights from data. With a strong 
+                            academic background and hands-on learning, I'm ready to make meaningful contributions to data-focused 
+                            endeavors. I am prepared to work as an intern and transition seamlessly into a full-time role. Let's 
+                            explore possibilities and harness the power of data together. "</p>
+                    </div>
+                </div>
+               <!--<div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+                        reprehenderit et laborum, rem, dolore eum quod voluptate
+                        exercitationem nobis, nihil esse debitis maxime facere minus sint
+                        delectus velit in eos quo officiis explicabo deleniti dignissimos.
+                        Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+                        reiciendis ea magnam? Nulla, impedit fuga!
+                    </p>
+                </div>-->
+            </div>
+        </div>
+        <img src="./Images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#skills'"/>
+    </section>
+    <!--Skills Section-->
+    <section id="skills">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Data Analysis</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>Statistics</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>Machine Learning</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <br>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Data Visualization</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>Microsoft Excel</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>Tableau</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>Power BI</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!--<div class="details-container">
+                    <h2 class="skills-sub-title">Version Controls</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>Git</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Images/checkmark.png" alt="skills icon" class="icon"/>
+                            <div>
+                                <h3>GitHub</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <img src="./Images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+
+    <!--Projects Section-->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Resent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Images/Project-1.png" alt="Project 1" class="project-img" style="height: 200px;" />
+                    </div>
+                    <h2 class="skills-sub-title project-title">Second Hand Car Dealership</h2>
+                    <p style="text-align:justify;">Implemented a comprehensive SQL solution for a Second Hand Car Dealer, addressing critical business queries. Successfully determined the total available cars in all years, calculated average selling prices by car model and year, and extracted detailed information for all cars within the specified timeframe (2015 to 2023). Delivered an efficient database solution for informed decision-making in the second-hand car market.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/niranjanpatil29/Second-Hand-Car-Dealer-SQL'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/niranjanpatil29/'">Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/EV Dashboard.png" alt="Project 2" class="project-img" style="height: 220px;"/>
+                    </div>
+                    <h2 class="skills-sub-title project-title">Electric Vehicles Data Analysis</h2>
+                    <p style="text-align:justify;">This Tableau Dashboard provides a comprehensive analysis of electric vehicles (EVs) data from the United States. The primary Key Performance Indicators (KPIs) focus on understanding the market landscape, technological advancements, and geographical distribution of electric vehicles, encompassing both Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs).</p>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/niranjanpatil29/Electric-Vehicles-Data-Analysis'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://public.tableau.com/app/profile/niranjan.patil7285/viz/Electric_Vehicle_Data_Analysis_17200126627950/Dashboard1'">Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./images/Covid19 in India Dashoboard.png" alt="Project 3" class="project-img" style="height: 220px;" />
+                        <h2 class="skills-sub-title project-title">Covid19 in India Dashboard</h2>
+                    </div>
+                    <p style="text-align:justify;">This Tableau Dashboard provides a comprehensive analysis of the COVID-19 pandemic in India. It includes various key insights and visualizations to help understand the impact and spread of the virus across different states and demographics. The data used for this analysis is sourced from official Indian government reports and databases.</p>
+                    <br>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/niranjanpatil29/Covid19-in-India-Data-Analysis'">Github</button>
+                        <button  class="btn btn-color-2 project-btn" onclick="location.href='https://public.tableau.com/app/profile/niranjan.patil7285/viz/Covid-19inIndiaDataAnalysis/Covid-19inIndiaDataAnalysis'">Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Images/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+    </section>
+
+    <div class="more-btn" style="margin-bottom: -2%;">
+        <button  class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/niranjanpatil29/'" style="margin-top:13%; margin-bottom:5%;">More Projects</button>
+    </div>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Images/email.png" alt="Email Icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:niranjanpatil1129@gmail.com">niranjanpatil1129@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Images/linkedin.png" alt="LinkedIn Icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/niranjanpatil11/">LinkedIn</a></p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Niranjan Patil. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body> 
+</html>
